@@ -98,7 +98,7 @@ int main()
     // SFML main program could go here if you do that part...
 
     sf::Font font;
-    if (!font.loadFromFile("../media/Merriweather-Bold.ttf"))
+    if (!font.loadFromFile("../../media/Merriweather-Bold.ttf"))
     {
         std::cout << "Could not load font file" << std::endl;
     }
@@ -106,7 +106,7 @@ int main()
     sf::RenderWindow window(sf::VideoMode(SCREENWIDTH, SCREENHEIGHT), "ETEC2101 - Lab9: Graphs");
 
     ssuds::Level level;
-    level.load_file("../maps/map04.txt");
+    level.load_file("../../maps/map04.txt");
 
     while (window.isOpen())
     {
